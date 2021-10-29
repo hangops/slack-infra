@@ -1,3 +1,3 @@
 FROM gcr.io/distroless/base
-COPY slack-report-message /
+COPY . /
 CMD ["/slack-report-message"]
